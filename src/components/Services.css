@@ -1,0 +1,44 @@
+/* icons.css */
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 270px;
+  }
+
+.icon {
+    margin: 10px;
+    font-size: 100px;
+    color: #333;
+
+  }
+  
+  .icon-html5 {
+    color: #e34f26;
+  }
+  
+  .icon-css3 {
+    color: #1572b6;
+  }
+  
+  .icon-js {
+    color: #f7df1e;
+  }
+  
+  .icon-react {
+    color: #61dafb;
+  }
+  
+  .icon-nodejs {
+    color: #68a063;
+  }
+  
+  .icon-mongodb {
+    color: #47A248;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+  }

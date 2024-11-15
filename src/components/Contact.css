@@ -1,0 +1,53 @@
+#contact{
+    background-color: black;
+    color: white;
+    height: 540px;
+    width: 700px;
+    margin-left: 415px;
+    margin-top: 50px;
+    border-radius: 20px;
+    
+}
+
+#contact h1{
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial;
+}
+
+input{
+    color: aliceblue;
+    width: 600px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background: none;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid orangered;
+    padding-top:30px;
+}
+
+input::placeholder{
+    color: aliceblue;
+    font-size: large;
+}
+
+button{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 600px;
+    height: 50px;
+    background-color: orangered;
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: orangered;   
+}
